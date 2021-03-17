@@ -10,7 +10,48 @@
       <a href="https://yudaiukawa.github.io/ukawaportfolio/">ホームへ戻る</a>
     </header>
     <main>
-      
+      <div class="name"><h1>宇川雄大の経歴<br>2000/10/25</h1></div>
+      <div id="box1">
+        <ul>
+          <li>2000年10月生まれ</li>
+          <li>2019年3月<br>関西大倉高等学校卒業</li>
+          <li>2019年4月<br>国際ファッション専門職大学入学</li>
+        </ul>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div id="box2">
+        <p>2019年よりプログラミングの勉強を始める。<br>
+        主にProgateやDotinstall、またYoutubeなどで勉強する。</p>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div id="box3">
+        <a href="#">2019年10月より<br>ブランドギャラリー<br>EC担当としてアルバイト入社。<br>スキル不足を感じ2020年2月退社し、再び勉強を開始。</a>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            var top = $(this).scrollTop();
+            if(top > 0){
+              $("#box1").fadeIn('800');
+            }else{
+              $("#box1").fadeOut('800');
+            }
+            if(top > 400){
+              $("#box2").fadeIn('800');
+            }else{
+              $("#box2").fadeOut('800');
+            }
+            if(top > 1600){
+              $("#box3").fadeIn('800');
+            }else{
+              $("#box3").fadeOut('800');
+            }
+          });
+        });
+      </script>
   </body>
 </html>

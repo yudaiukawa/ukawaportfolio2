@@ -30,9 +30,13 @@ header a{
   margin:0;
 }
 
-#box1{
+.box11{
+  height:2500px;
   background:#cecece;
-  color:white;
+  width:100%;
+}
+
+#box1{
   width:100%;
   margin:0 auto;
   text-align:center;
@@ -43,6 +47,7 @@ header a{
   margin:0;
   padding:0;
   line-height:90px;
+  padding-top:850px;
 }
 
 #box1 ul li{
@@ -52,20 +57,94 @@ header a{
   color:black;
 }
 
+.box12{
+  background:rgb(189, 188, 188);
+  height:2500px;
+}
+
 #box2{
-  background:blue;
-  color:white;
-  padding:20px;
-  width:100px;
+  width:100%;
   margin:0 auto;
   text-align:center;
 }
 
+#box2 p{
+  padding-top:1000px;
+  font-size:50px;
+  line-height:90px;
+  color:black;
+  margin:0;
+}
+
+.box13{
+  background:rgb(160, 160, 160);
+  height:2500px;
+}
+
 #box3{
-  background:green;
-  color:white;
-  padding:20px;
-  width:100px;
+  width:100%;;
   margin:0 auto;
   text-align:center;
+}
+
+.inbox3 p{
+  margin:0;
+  font-size:50px;
+  line-height:90px;
+  padding-top:850px;
+}
+
+.box3image{
+  background:lightblue;
+  width:60%;
+  height:200px;
+  margin:0 auto;
+  border-radius:40px;
+  margin-top:100px;
+}
+
+.inbox3 h2{
+  font-size:30px;
+}
+
+.box3image p{
+  font-size:30px;
+  padding-top:60px;
+  color:black;
+}
+
+.box14{
+  background:rgb(126, 125, 125);
+  width:100%;
+  height:2500px;
+}
+
+#box4{
+  text-align:center;
+}
+
+#box4 p{
+  margin:0;
+  font-size:50px;
+  line-height:90px;
+  padding-top:900px;
+}
+
+#box4 h2{
+  font-size:30px;
+}
+
+.box4image{
+  background:lightgreen;
+  width:60%;
+  border-radius:40px;
+  margin-top:100px;
+  margin-left:auto;
+  margin-right:auto;
+  height:200px;
+}
+
+.box4image h3{
+  font-size:30px;
+  padding-top:80px;
 }

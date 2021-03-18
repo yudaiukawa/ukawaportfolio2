@@ -11,23 +11,42 @@
     </header>
     <main>
       <div class="name"><h1>宇川雄大の経歴<br>2000/10/25</h1></div>
-      <div id="box1">
-        <ul>
-          <li>2000年10月生まれ</li>
-          <li>2019年3月<br>関西大倉高等学校卒業</li>
-          <li>2019年4月<br>国際ファッション専門職大学入学</li>
-        </ul>
+      <div class="box11">
+        <div id="box1">
+          <ul>
+            <li>2000年10月生まれ</li>
+            <li>2019年3月<br>関西大倉高等学校卒業</li>
+            <li>2019年4月<br>国際ファッション専門職大学入学</li>
+          </ul>
+        </div>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <div id="box2">
-        <p>2019年よりプログラミングの勉強を始める。<br>
-        主にProgateやDotinstall、またYoutubeなどで勉強する。</p>
+      <div class="box12">
+        <div id="box2">
+          <p>2019年より<br>プログラミングの勉強を始める。<br><br>
+          主にProgateやDotinstall、また<br>Youtubeなどで勉強する。</p>
+        </div>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <div id="box3">
-        <a href="#">2019年10月より<br>ブランドギャラリー<br>EC担当としてアルバイト入社。<br>スキル不足を感じ2020年2月退社し、再び勉強を開始。</a>
+      <div class="box13">
+        <div id="box3">
+          <div class="inbox3">
+            <p>2019年10月より<br>ブランドギャラリー<br>EC担当としてアルバイト入社。<br>スキル不足を感じ<br>2020年2月退社し、再び勉強を開始。</p>
+            <a href="#"><div class="box3image">
+              <p>ブランドギャラリーへ</p>
+            </div></a>
+            <h2>内容は楽天ページの修正やEC管理または、商品の出品。</h2>
+          </div>
+        </div>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="box14">
+        <div id="box4">
+          <p>こつこつ勉強し、2021年3月<br>旅館ムサシのホームページを参考に<br>コードを一切みず、一から同じ物を<br>作り上げました。</p>
+          <a href="#"><div class="box4image">
+            <h3>ポートフォリオ１へ</h3>
+          </div></a>
+          <h2>スマホ専用の作りしかしてないので、<br>スマホでの確認をお願いします。</h2>
+        </div>
+      </div>
+        
 
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -35,20 +54,25 @@
         $(document).ready(function(){
           $(window).scroll(function(){
             var top = $(this).scrollTop();
-            if(top > 0){
+            if(top > 300 && top < 1600){
               $("#box1").fadeIn('800');
             }else{
               $("#box1").fadeOut('800');
             }
-            if(top > 400){
+            if(top > 2700 && top < 3900){
               $("#box2").fadeIn('800');
             }else{
               $("#box2").fadeOut('800');
             }
-            if(top > 1600){
+            if(top > 5100 && top < 6500){
               $("#box3").fadeIn('800');
             }else{
               $("#box3").fadeOut('800');
+            }
+            if(top > 7600){
+              $("#box4").fadeIn('800');
+            }else{
+              $("#box4").fadeOut('800');
             }
           });
         });
